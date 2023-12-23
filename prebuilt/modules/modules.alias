@@ -1,0 +1,14 @@
+# Aliases extracted from modules themselves.
+alias of:N*T*Cgoodix,gt9897 goodix_core
+alias of:N*T*Cgoodix,gt9897C* goodix_core
+alias of:N*T*Cgoodix,gt9966 goodix_core
+alias of:N*T*Cgoodix,gt9966C* goodix_core
+alias of:N*T*Cgoodix,gt9916 goodix_core
+alias of:N*T*Cgoodix,gt9916C* goodix_core
+alias i2c:gtx8_i2c goodix_core
+alias platform:goodix_ts goodix_core
+alias spi:synaptics_tcm_spi synaptics_tcm_spi
+alias of:N*T*Csynaptics,tcm-spi synaptics_tcm_spi
+alias of:N*T*Csynaptics,tcm-spiC* synaptics_tcm_spi
+alias of:N*T*Cxiaomi,k9e-spi synaptics_tcm_spi
+alias of:N*T*Cxiaomi,k9e-spiC* synaptics_tcm_spi

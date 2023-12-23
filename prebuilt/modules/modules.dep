@@ -1,0 +1,9 @@
+/lib/modules/goodix_core.ko: /lib/modules/xiaomi_touch.ko
+/lib/modules/synaptics_tcm_reflash.ko: /lib/modules/hwid.ko /lib/modules/synaptics_tcm_core_module.ko /lib/modules/synaptics_tcm_spi.ko /lib/modules/xiaomi_touch.ko
+/lib/modules/synaptics_tcm_testing.ko: /lib/modules/synaptics_tcm_core_module.ko /lib/modules/synaptics_tcm_spi.ko /lib/modules/xiaomi_touch.ko
+/lib/modules/synaptics_tcm_device.ko: /lib/modules/synaptics_tcm_core_module.ko /lib/modules/synaptics_tcm_spi.ko /lib/modules/xiaomi_touch.ko
+/lib/modules/synaptics_tcm_core_module.ko: /lib/modules/synaptics_tcm_spi.ko /lib/modules/xiaomi_touch.ko
+/lib/modules/xiaomi_touch.ko:
+/lib/modules/hwid.ko:
+/lib/modules/synaptics_tcm_spi.ko:
+/lib/modules/synaptics_tcm_diagnostics.ko: /lib/modules/synaptics_tcm_core_module.ko /lib/modules/synaptics_tcm_spi.ko /lib/modules/xiaomi_touch.ko
